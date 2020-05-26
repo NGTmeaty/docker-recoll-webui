@@ -15,7 +15,7 @@ RUN apt-get install -y --force-yes unzip xsltproc unrtf untex libimage-exiftool-
 
 RUN mkdir /homes && mkdir /root/.recoll
 
-RUN git clone https://github.com/dsheyp/recoll-webui.git
+RUN git clone https://framagit.org/medoc92/recollwebui.git
 
 VOLUME /homes
 EXPOSE 8080
